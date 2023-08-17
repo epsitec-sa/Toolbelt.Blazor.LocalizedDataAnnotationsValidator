@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Nullable>disable</Nullable>
     <RootNamespace>Toolbelt.Blazor.Forms</RootNamespace>
     <AssemblyName>Toolbelt.Blazor.LocalizedDataAnnotationsValidator</AssemblyName>
     <NoWarn>$(NoWarn);1591</NoWarn>
