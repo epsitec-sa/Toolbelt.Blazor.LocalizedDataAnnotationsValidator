@@ -17,8 +17,8 @@ namespace Toolbelt.Blazor.Forms.Internals.ValidationAttributeStores
 
         internal StoreItem(IEnumerable<Attribute> attributes)
         {
-            ValidationAttributes = attributes.OfType<ValidationAttribute>();
-            DisplayAttribute = attributes.OfType<DisplayAttribute>().SingleOrDefault();
+            this.ValidationAttributes = attributes.OfType<ValidationAttribute>();
+            this.DisplayAttribute = attributes.OfType<DisplayAttribute>().SingleOrDefault();
         }
     }
 }
