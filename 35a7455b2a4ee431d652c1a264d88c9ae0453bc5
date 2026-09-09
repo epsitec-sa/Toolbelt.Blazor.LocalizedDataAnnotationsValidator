@@ -1,0 +1,12 @@
+[
+  {
+    "SourceBranch": "wip/rv@tfm-babouchka",
+    "TargetBranch": "master",
+    "CreateMergeRequest": false,
+    "CreatedAt": "2026-09-09T17:22:00.4853427+02:00",
+    "Author": "Roger Vuistiner <vuistiner@epsitec.ch>",
+    "TargetSha": "35a7455b2a4ee431d652c1a264d88c9ae0453bc5",
+    "Orphan": false,
+    "BundleName": "cresus-dev"
+  }
+]
